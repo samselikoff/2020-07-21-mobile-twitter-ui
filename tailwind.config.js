@@ -9,7 +9,7 @@ module.exports = {
       xs: px(12),
       sm: px(14),
       base: px(15),
-      lg: px(19),
+      lg: px(18),
       xl: px(20),
       "2xl": px(24),
       "3xl": px(30),
