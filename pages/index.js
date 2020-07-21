@@ -21,11 +21,11 @@ function Home() {
             <div className="flex flex-col flex-1 min-w-0">
               {/* Header */}
               <p className="flex text-sm">
-                <span className="truncate">
-                  <span className="font-bold">{tweet.name}</span>{" "}
-                  <span className="pl-1 text-cool-gray-500">
-                    @{tweet.username}
-                  </span>
+                <span className="truncate text-cool-gray-500">
+                  <span className="font-bold text-cool-gray-900">
+                    {tweet.name}
+                  </span>{" "}
+                  <span className="pl-1">@{tweet.username}</span>
                 </span>
                 <span className="flex-shrink-0">
                   <span className="px-1 text-cool-gray-500">·</span>
