@@ -55,9 +55,10 @@ let server = createServer({
     server.create("tweet", "fromSam", {
       text: "I still don't understand useEffect",
     });
+    server.createList("tweet", 10);
   },
 });
 
-setInterval(() => {
-  server.create("tweet");
-}, 5000);
+// setInterval(() => {
+//   server.create("tweet");
+// }, 5000);
