@@ -1,5 +1,5 @@
 function Notifications() {
-  return <p>Notifications</p>;
+  return <p className="p-4">Notifications</p>;
 }
 
 Notifications.headerTitle = "Notifications";

@@ -6,7 +6,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 function Home() {
   let { data } = useSWR("/api/tweets", fetcher);
 
-  if (!data) return "Loading...";
+  if (!data) return <p className="p-4">Loading...</p>;
 
   return (
     <div>

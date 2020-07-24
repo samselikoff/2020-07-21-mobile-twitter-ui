@@ -1,5 +1,5 @@
 function Explore() {
-  return <p>Explore</p>;
+  return <p className="p-4">Explore</p>;
 }
 
 Explore.headerTitle = "Search";
