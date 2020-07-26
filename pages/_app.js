@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <header className="flex items-center px-4 py-3 border-b">
           <img
             className="rounded-full w-7 h-7"
-            src="https://pbs.twimg.com/profile_images/1282391598878392320/sFA_RlbT_400x400.jpg"
+            src="http://twivatar.glitch.me/samselikoff"
           />
           <p className="ml-6 text-lg font-extrabold">{Component.headerTitle}</p>
         </header>

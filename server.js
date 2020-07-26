@@ -36,8 +36,7 @@ let server = createServer({
       fromSam: trait({
         name: "Sam Selikoff",
         username: "samselikoff",
-        avatarUrl:
-          "https://pbs.twimg.com/profile_images/1282391598878392320/sFA_RlbT_400x400.jpg",
+        avatarUrl: "http://twivatar.glitch.me/samselikoff",
       }),
     }),
   },
@@ -50,11 +49,11 @@ let server = createServer({
   },
 
   seeds(server) {
-    // server.create("tweet", "fromSam", { text: "just setting up my twttr" });
-    // server.create("tweet", "fromSam", { text: "Hi" });
-    // server.create("tweet", "fromSam", {
-    //   text: "I still don't understand useEffect",
-    // });
+    server.create("tweet", "fromSam", { text: "just setting up my twttr" });
+    server.create("tweet", "fromSam", { text: "Hi" });
+    server.create("tweet", "fromSam", {
+      text: "I still don't understand useEffect",
+    });
     server.createList("tweet", 50);
   },
 });
